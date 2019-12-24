@@ -14,14 +14,6 @@ $(function(){
         dots:true
     })
 
-    $("input").on("focus", function(){
-        $(this).addClass("focus");
-    })
-    
-    $("input").on("blur", function(){
-        if($(this).val() == "")
-        $(this).removeClass("focus");
-    })
 
-
+    autosize(document.querySelector('textarea'));
 })

@@ -416,39 +416,54 @@
           <div class="contact__title">Let’s talk about the project</div>
 
           <form action="" class="contact__form">
-            <div class="form">
-              <div class="form__name">
-                <label for="contactName">Your Name</label>
-                <p>
-                  <input
-                    type="text"
-                    name="name"
-                    id="contactName"
-                    class="contact__form_name"
-                  />
-                </p>
+            <div class="form__row">
+              <div class="form__col">
+                <div class="inputBox">
+                  <input type="text" name="" required="required" />
+                  <span class="inputBox__text">First Name</span>
+                  <span class="inputBox__line"></span>
+                </div>
               </div>
-              <div class="form__email">
-                <label for="contactEmail">Your email</label>
-                <p><input type="email" name="email" id="contactEmail" /></p>
+              <div class="form__col">
+                <div class="inputBox">
+                  <input type="text" name="" required="required" />
+                  <span class="inputBox__text">Last Name</span>
+                  <span class="inputBox__line"></span>
+                </div>
               </div>
-              <div class="form__company">
-                <label for="contactCompany">company</label>
-                <p><input type="text" name="company" id="contactCompany" /></p>
-              </div>
-              <div class="form__subj">
-                <label for="contactSubj">Subject</label>
-                <p><input type="text" name="subject" id="contactSubj" /></p>
-              </div>
-              <div class="form__message">
-                <label for="contactMessage">your message</label>
-                <p><textarea name="text" id="contactMessage"></textarea></p>
-              </div>
-              <button>
-                  get in touch<img src="img/arrow-rig.svg" alt="arrow" />
-              </button>
             </div>
-            
+            <div class="form__row">
+              <div class="form__col">
+                <div class="inputBox">
+                  <input type="text" name="" required="required" />
+                  <span class="inputBox__text">Email </span>
+                  <span class="inputBox__line"></span>
+                </div>
+              </div>
+              <div class="form__col">
+                <div class="inputBox">
+                  <input type="text" name="" required="required" />
+                  <span class="inputBox__text">Mobile</span>
+                  <span class="inputBox__line"></span>
+                </div>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__col">
+                <div class="inputBox textarea">
+                  <textarea required="required"></textarea>
+                  <span class="inputBox__text">Message</span>
+                  <span class="inputBox__line"></span>
+                </div>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__col form_btn">
+                  <button class="form__button">
+                      get in touch<img src="img/arrow-rig.svg" alt="arrow" />
+                  </button>
+              </div>
+            </div>
           </form>
 
           <div class="contact__data">
@@ -487,6 +502,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="https://rawgit.com/jackmoore/autosize/master/dist/autosize.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
