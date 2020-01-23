@@ -13,7 +13,11 @@ a{
     max-width: 1140px;
     margin: auto;
     font-family: 'Open Sans';
+    padding: 0 20px;
 }
 *{
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,249 @@
+@media (max-width: 935px) {
+  form button {
+    font-size: 16px;
+    width: 43%;
+    img {
+      display: none;
+    }
+  }
+}
+@media (max-width: 803px) {
+  form button {
+    padding: 15px;
+  }
+  .services__subtitle {
+    margin: 0 175px 115px;
+  }
+}
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 45px;
+    width: 95%;
+  }
+  .header-cont {
+    nav {
+      margin-bottom: 150px;
+    }
+  }
+  .header__arrow {
+    margin-bottom: 55px;
+  }
+  .services__subtitle {
+    font-size: 30px;
+    margin: 0 185px 90px;
+  }
+  .services__items {
+    margin-bottom: 90px;
+  }
+  .testimonial__title {
+    font-size: 30px;
+  }
+  .team__title {
+    font-size: 30px;
+  }
+  .people__person_desc {
+    line-height: 17px;
+  }
+  .contact__title {
+    font-size: 30px;
+  }
+  .slider-companyName {
+    font-size: 40px;
+  }
+  .slider-picture {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .slider-proj {
+    top: 14%;
+    left: 5px;
+  }
+  .testimonial__brands {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+      padding: 10px 15px;
+    }
+  }
+  .people__person:hover .people__person_name {
+    display: none;
+  }
+  .people__person:hover .people__person_position {
+    display: none;
+  }
+  .people__person_desc {
+    padding: 10px;
+    padding-top: 45px;
+  }
+}
+@media (max-width: 566px) {
+  .header__title {
+    font-size: 35px;
+    margin-top: 150px;
+  }
+  .services__subtitle {
+    font-size: 30px;
+    margin: 0 55px 50px;
+  }
+  .services__item_title {
+    font-size: 24px;
+  }
+  .services__item_desc {
+    font-size: 14px;
+  }
+  .services__item_link {
+    font-size: 12px;
+  }
+  .tes__desc {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .tes__author {
+    font-size: 13px;
+  }
+  .inputBox .inputBox__text {
+    font-size: 13px;
+  }
+  form button {
+    padding: 10px;
+  }
+  .contact__data {
+    margin-bottom: 40px;
+    font-size: 13px;
+  }
+  .other__social {
+    font-size: 20px;
+  }
+  .people__person {
+    width: 50%;
+  }
+  .people__person_desc {
+    font-size: 16px;
+    padding-top: 65px;
+  }
+
+  .people__person:nth-child(2n + 1) {
+    border-right: 1px solid #4a4a4a;
+  }
+  .people__person:nth-child(2n + 2) {
+    border-right: none;
+  }
+  .people__person:nth-child(n + 5) {
+    border-bottom: 1px solid #4a4a4a;
+  }
+  .people {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 475px) {
+  .team__subtitle::after,
+  .testimonial__subtitle:after,
+  .services__title::before,
+  .contact__subtitle:after {
+    height: 75px;
+  }
+  .team__subtitle,
+  .testimonial__subtitle,
+  .services__title,
+  .contact__subtitle {
+    padding-top: 75px;
+  }
+  .header__title,
+  .services__subtitle,
+  .testimonial__title,
+  .team__title,
+  .contact__title {
+    font-size: 25px;
+  }
+  .testimonial__slider {
+    width: 95%;
+  }
+  .contact__form {
+    width: 90%;
+  }
+  .other__social {
+    flex-wrap: wrap;
+    a {
+      margin: 3px;
+    }
+  }
+  .contact__data_logo {
+    display: none;
+  }
+  .services__item_link {
+    img {
+      display: none;
+    }
+  }
+  .services__items {
+    margin-bottom: 40px;
+  }
+  form button {
+    font-size: 14px;
+    width: 65%;
+  }
+}
+@media (max-width: 425px) {
+  .services__items {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services__item {
+    width: 90%;
+  }
+  .services__item_icon {
+    margin-bottom: 5px;
+  }
+  .services__item_desc {
+    margin-bottom: 5px;
+  }
+  .services__item_link {
+    margin-bottom: 25px;
+  }
+  .contact__data {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__data_calif,
+  .contact__data_newYork,
+  .contact__data_other {
+    width: 90%;
+  }
+  .calif__addr,
+  .newYork__addr,
+  .other__addr {
+    margin-bottom: 20px;
+  }
+  .calif__title,
+  .newYork__title,
+  .other__title {
+    margin-bottom: 10px;
+  }
+  .inputBox .inputBox__line {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .tes__author::before,
+  .tes__author::after {
+    width: 15%;
+  }
+  .form__col.form_btn {
+    margin-bottom: 5px;
+  }
+  form button {
+    margin-right: 65px;
+  }
+  nav .nav__link {
+    padding: 0 3px;
+  }
+  .header__title {
+    padding: 55px 0;
+  }
+  .services__subtitle {
+    margin: 0 10px 50px;
+  }
+}
